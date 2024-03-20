@@ -1,0 +1,35 @@
+@import "main.css";
+
+#couleur{
+
+    p{
+        font-family: verdana, sans-serif;
+    }
+    .red{
+        color: red;
+    }
+    .blue{
+        color: blue;
+    }
+    .green{
+        color: green;
+    }
+}
+
+#fond{
+
+    p{
+        font-family: tahoma, sans-serif;
+        color: white;
+        padding: 4px 8px;
+    }
+    .red{
+        background-color: red;
+    }
+    .blue{
+        background-color: blue;
+    }
+    .green{
+        background-color: green;
+    }
+}

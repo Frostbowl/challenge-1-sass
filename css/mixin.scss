@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import "main.css";
+
+.actions{
+    margin: 20px 0;
+}
+
+.bouton{
+    background-color: #222;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 0 1em;
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btnSave{
+    @extend .bouton;
+    background-color: #55AAFF;
+}
+
+.btnValidate{
+    @extend .bouton;
+    background-color: #3cb371;
+}
+
+.btnClore{
+    @extend .bouton;
+    background-color: #FF0055;
+}
